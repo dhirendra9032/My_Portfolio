@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+   width: 100%;
+    background: #2C3E50;
+    display: flex;
+}
+
+.detail-container{
+    width: 60%;
+   
+    
+}
+.avatar{
+    width: 40%;
+    position: relavtive;
+    
+}
+
+.avatar img{
+    position: absolute;
+    width: 50rem;
+    top: 25%;
+    right: 10%;
+    opacity: 0.9;
+    transition: 6s;
+}
+.datail-section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    font-size: 3.2rem;
+    font-family: 'Akronim', cursive;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  
+}
+
+.img-holder{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    border: 5px solid #6d7a88;
+    background: #8a9096;
+    background-image: url("./avatar.png");
+    background-position: center;
+    background-size: cover;
+}
+.slider{
+    height: 50px;
+    font-size: 4rem;
+    text-align: center;
+    overflow: hidden;
+    animation: slider 6s linear infinite;
+}
+
+
+
+
+@media (max-width:1080px){
+    .avatar {
+        display: none;
+    }
+    .detail-container{
+        width: 100%;
+        
+        
+    }
+    
+}
+.social-media-contact-link a{
+    margin: 2rem;
+    font-size: 10rem;
+}
+
+.linkedin:hover{
+    color: rgb(13, 159, 195);
+    border-radius: 5px;
+}
+
+
+
+@media (max-width:768px){
+    .datail-section{
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width:520px){
+    .datail-section{
+        font-size: 2rem;
+    }
+}
+
+.typing{
+    font-size: 8rem;
+}

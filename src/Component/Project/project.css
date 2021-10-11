@@ -1,0 +1,92 @@
+.main-conatiner{
+    width: 100%;
+    text-align: center;
+}
+
+.main-conatiner h1{
+    font-size: 8rem;
+    font-weight: 600;
+
+}
+
+.project-container{
+    width: 90%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-detail{
+    width: 48%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid rgb(40, 47, 65);
+}
+
+.project-detail img{
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.project-detail h3{
+    text-align: left;
+    font-size: 3rem;
+
+}
+.project-detail p{
+    text-align: left;
+    font-size: 2.5rem;
+
+}
+
+.tech{ 
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 15rem;
+}
+
+.links{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.links div{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 4rem;
+    border: 1px solid rgb(40, 47, 65);
+}
+
+.linkd div:hover {
+    font-size:5rem ;
+}
+
+@media(max-width:768px){
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-detail{
+        width: 90%;
+        margin: 10rem auto;
+    }
+    .teck{
+        width: 100%;
+    }
+    .links{
+        width: 100%;
+    }
+}
+
+
